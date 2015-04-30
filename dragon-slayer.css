@@ -1,0 +1,66 @@
+body {
+	width: 416px;
+	margin: 25px auto;
+}
+
+#battle-status {
+	box-sizing: border-box;
+	line-height: 40px;
+	font-size: 20px;
+	text-align: center;
+	width: 416px;
+	border: 2px solid #000000;
+}
+
+#battlefield {
+	height: 168px;
+	width: 416px;
+	position: relative;
+	background: url(img/cavern.gif) no-repeat;
+	overflow: hidden;
+}
+
+#standard_attack,
+#auto_attack {
+	margin: 10px 0;
+	line-height: 30px;
+	width: 416px;
+	float: left;
+	display: block;
+}
+
+#dragon {
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+#dragon-health {
+	width: 100px;
+	position: absolute;
+	bottom: 50px;
+	left: 225px;
+}
+
+#fighter {
+	position: absolute;
+	bottom: 10px;
+	left: 50px;
+}
+
+#fighter-health {
+	width: 50px;
+	position: absolute;
+	bottom: 15px;
+	left: 100px;
+}
+
+meter {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+#fighter-health::-webkit-meter-optimum-value { background: #075220; }
+
+#dragon-health::-webkit-meter-optimum-value { background: #9e0601; }

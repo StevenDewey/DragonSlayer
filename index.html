@@ -1,0 +1,27 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+
+	<link rel="stylesheet" href="dragon-slayer.css">
+
+	<title>Slay the Dragon!</title>
+</head>
+
+<body>
+	<div id="battlefield">
+		<img id="fighter" src="img/fighter.gif">
+		<meter id="fighter-health" min="0" max="100" value="100"></meter>
+
+		<img id="dragon" src="img/dragon.gif">
+		<meter id="dragon-health" min="0" max="200" value="200"></meter>
+	</div>
+
+	<p id="battle-status">&nbsp;</p>
+
+	<button id="standard_attack">Attack</button>
+	<button id="auto_attack">Auto-Attack</button>
+	<div id="body"></div>
+	<script src="dragon-slayer.js"></script>
+</body>
+</html>
